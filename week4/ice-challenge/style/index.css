@@ -1,0 +1,30 @@
+/* .text{
+    text-align: center;
+    background-color: rgb(242, 167, 199); */
+body{
+    background-color: rgb(242, 167, 199);
+    text-align: center;
+}
+
+div.container{
+    text-align: center;
+}
+  
+ol.myOL{
+    display: inline-block;
+    text-align: left;
+}
+
+.text1{
+    color: black;
+}
+
+.text2{
+    color: white;
+}
+
+#quote{
+    font-size: 200%;
+    margin: 0 40%;
+    color: purple;
+}
