@@ -207,12 +207,6 @@ footer p a:hover {
     width: 80px;
 }
 
-.icon {
-    width: 80px;
-    border-radius: 100%;
-    border: solid 2px #103783;
-}
-
 .card-img {
     border: 10px solid #32c4c0;
     width: 100%;
