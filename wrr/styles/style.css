@@ -280,6 +280,7 @@ footer .social img{
 
 #river-hero-img {
     width: 100%;
+    height: 75%;
 }
 
 #river-hero-msg {
@@ -293,6 +294,48 @@ footer .social img{
     text-align: center;
     font-size: 100px;
     text-shadow: 5px 5px 10px #103783;
+}
+
+#river-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.inner-grid-1 {
+    display: grid;
+    grid-column: 1fr 1fr;
+    margin: 50px 10px;
+}
+
+.inner-grid-2 {
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1fr;
+    margin: 50px 10px;
+}
+
+.msg1 {
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.msg2 {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.river-img-1 {
+    width: 75%;
+    margin: auto 10%;
+    grid-column: 1/2;
+}
+
+.river-img-2 {
+    width: 75%;
+    margin: auto 10%;
+    grid-column: 2/3;
 }
 
 /* @media screen and (max-width: 900px) {
