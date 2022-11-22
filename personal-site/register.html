@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Lord Education | Register</title>
+</head>
+<body>
+    <header>
+        <a href="">
+            <img src="./images/logo.png" alt="Lord Education">
+        </a>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./lessons.html">Lessons</a>
+            <a href="./account.html">Login</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <Section>
+            <h1>Register</h1>
+        </Section>
+        <Section>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" placeholder="Name"/>
+                    </li>
+                    <li>
+                        <label for="sex">Sex:</label>
+                        <input type = "radio" name = "sex" value = "male"> Male
+                        <input type = "radio" name = "sex" value = "female"> Female
+                    </li>
+                    <li>
+                        <label for="birthday">Date of Birth:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </li>
+                    <li>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                    </li>
+                    <li>
+                        <label for="lessons">Lessons:</label>
+                        <input type="checkbox" name="lessons" value="english">English
+                        <input type="checkbox" name="lessons" value="math">Math
+                        <input type="checkbox" name="lessons" value="writing">Writing
+                        <input type="checkbox" name="lessons" value="presentation">Presentation
+                    </li>
+                    <li>
+                        <label for="date">Date:</label>
+                        <input type="checkbox" name="date" value="monday">Monday
+                        <input type="checkbox" name="date" value="tuesday">Tuesday
+                        <input type="checkbox" name="date" value="wednesday">Wednesday
+                        <input type="checkbox" name="date" value="thursday">Thursday
+                        <input type="checkbox" name="date" value="friday">Friday
+                        <input type="checkbox" name="date" value="saturday">Saturday
+                    </li>
+                    <li>
+                        <label for="appt">Time:</label>
+                        <input type="time" name="appt" min="11:00" max="20:00" required> to 
+                        <input type="time" name="appt" min="12:00" max="21:00" required>
+                    </li>
+                </ul>
+                <ul class="button">
+                    <button type="submit">Submit</button>
+                </ul>
+            </form>    
+        </Section>
+    </main>
+    <footer>
+        <hr>
+        <p>Dry Oar &copy; 2022 - Yat Lam</p>
+        <p><a href="./site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="../wrr/images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="../wrr/images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="../wrr/images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
