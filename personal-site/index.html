@@ -9,32 +9,35 @@
 </head>
 <body>
     <header>
-        <a href="">
-            <img src="./images/logo.png" alt="Lord Education">
+        <a href="./index.html">
+            <img class="logo" src="./images/logo.png" alt="Lord Education">
         </a>
         <nav>
             <a href="./index.html">Home</a>
             <a href="./lessons.html">Lessons</a>
-            <a href="./account.html">Login</a>
+            <a href="./register.html">Register</a>
+            <input type="text" placeholder="Search..">
         </nav>
+    </header>
+    <main>
         <hr>
-        <div>
-            <div>
-                <img src="./images/algebra.jpg" alt="Home Picture">
+        <div id="main">
+            <div id="main-box">
+                <img id="main-pic" src="./images/algebra.jpg" alt="Home Picture">
             </div>
-            <section>
+            <section id="main-title">
                 <h1>Lord Education</h1>
-                <div>
-                    <a href="./lessons.html">Register</a>
+                <div id="main-link">
+                    <a href="./lessons.html">Lessons</a>
                 </div>
+            </section>
+            <section id="main-msg">
                 <p>
                     Success is not Final; Failure is not Fatal; It is the Courage to Continue that Count.
                 </p>
             </section>
         </div>
-    </header>
-    <main>
-        <section>
+        <section id="module"">
             <h1>Module</h1>
             <p>Our goal is to help and guide students to find success in learning. 
                 Let students learning in fun. 
@@ -42,25 +45,32 @@
                 Support students from having failure. 
                 Teach students the reasons of learning. 
             </p>
-            <a href="./lessons.html">Register Now</a>
+            <a class="link" href="./register.html">Register Now</a>
         </section>
-        <section>
-            <img src="./images/game.jpg" alt="Games">
-            <p></p>
-        </section>
-        <section>
-            <img src="./images/join-us-now.jpg" alt="join-us-now">
-            <p></p>
-        </section>
-        <section>
-            <img src=".//images/contact-us.jpg" alt="contact-us">
-            <p></p>
-        </section>
+        <div id="home">
+            <section class="sub-home">
+                <img class="home-pics" src="./images/game.jpg" alt="Games">
+                <p>Learning in fun. Students can learn different knowledge through games because games could reduce students' loathing on learning and scares of failure</p>
+            </section>
+            <!-- <section>
+                <img src="./images/join-us-now.jpg" alt="join-us-now">
+                <p></p>
+            </section> -->
+            <section class="sub-home">
+                <p>
+                    Have more questions?</br>
+                    Want more info?</br>
+                    <a href="./contactus.html">Contact Us!</a>
+                </p>
+                <img class="home-pics" src="./images/contact-us.jpg" alt="contact-us">
+            </section>
+        </div>
+        <hr>
     </main>
     <footer>
-        <hr>
-        <p>Lord Education &copy; 2022 - Yat Lam</p>
+        <p>Dry Oar &copy; 2022 - Yat Lam</p>
         <p><a href="./site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com">
                 <img src="../wrr/images/facebook.png" alt="fb icon">
