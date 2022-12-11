@@ -24,57 +24,59 @@
         <Section>
             <h1>Register</h1>
         </Section>
-        <Section>
+        <div>
+            <img id="register-pic" src="./images/one-on-one-tutoring.jpg" alt="one-on-one">
+        </div>
+        <div id="form">
             <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" placeholder="Name"/>
-                    </li>
-                    <li>
-                        <label for="sex">Sex:</label>
-                        <input type = "radio" name = "sex" value = "male"> Male
-                        <input type = "radio" name = "sex" value = "female"> Female
-                    </li>
-                    <li>
-                        <label for="birthday">Date of Birth:</label>
-                        <input type="date" id="birthday" name="birthday">
-                    </li>
-                    <li>
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
-                    </li>
-                    <li>
-                        <label for="lessons">Lessons:</label>
-                        <input type="checkbox" name="lessons" value="english">English
-                        <input type="checkbox" name="lessons" value="math">Math
-                        <input type="checkbox" name="lessons" value="writing">Writing
-                        <input type="checkbox" name="lessons" value="presentation">Presentation
-                    </li>
-                    <li>
-                        <label for="date">Date:</label>
-                        <input type="checkbox" name="date" value="monday">Monday
-                        <input type="checkbox" name="date" value="tuesday">Tuesday
-                        <input type="checkbox" name="date" value="wednesday">Wednesday
-                        <input type="checkbox" name="date" value="thursday">Thursday
-                        <input type="checkbox" name="date" value="friday">Friday
-                        <input type="checkbox" name="date" value="saturday">Saturday
-                    </li>
-                    <li>
-                        <label for="appt">Time:</label>
-                        <input type="time" name="appt" min="11:00" max="20:00" required> to 
-                        <input type="time" name="appt" min="12:00" max="21:00" required>
-                    </li>
-                </ul>
-                <ul class="button">
-                    <button type="submit">Submit</button>
-                </ul>
+                <section>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" placeholder="Name"/>
+                </section>
+                <section>
+                    <label for="sex">Sex:</label>
+                    <input type = "radio" name = "sex" value = "male"> Male
+                    <input type = "radio" name = "sex" value = "female"> Female
+                </section>
+                <section>
+                    <label for="birthday">Date of Birth:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </section>
+                <section>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                </section>    
+                <section>
+                    <label for="lessons">Lessons:</label>
+                    <select id="lessons" name="lessons">
+                        <option value="english">English</option>
+                        <option value="math">Math</option>
+                        <option value="writing">Writing</option>
+                        <option value="presentation">Presentation</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="date">Date:</label>
+                    <input type="checkbox" name="date" value="monday">Monday
+                    <input type="checkbox" name="date" value="tuesday">Tuesday
+                    <input type="checkbox" name="date" value="wednesday">Wednesday
+                    <input type="checkbox" name="date" value="thursday">Thursday
+                    <input type="checkbox" name="date" value="friday">Friday
+                    <input type="checkbox" name="date" value="saturday">Saturday
+                </section>
+                <section>
+                    <label for="appt">Time:</label>
+                    <input type="time" name="appt" min="11:00" max="20:00" required> to 
+                    <input type="time" name="appt" min="12:00" max="21:00" required>
+                </section>
+                <section id="button">
+                    <input type="submit" value="Submit">
+                </section>
             </form>    
-        </Section>
+        </div>
         <hr>
     </main>
     <footer>
-        <hr>
         <p>Dry Oar &copy; 2022 - Yat Lam</p>
         <p><a href="./site-plan.html">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
