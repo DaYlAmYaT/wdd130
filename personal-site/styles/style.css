@@ -119,14 +119,12 @@ footer {
     background-color: #FFEA8E;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1/2fr 1fr;
 }
 footer p {
-    margin: 10px auto;
+    margin: auto;
 }
 .social {
     margin: 10px auto;
-    grid-column: 1/4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -191,7 +189,6 @@ input[type=submit]:hover {
 #register-pic {
     width: 100%;
     margin: 20px auto;
-
 }
 .flip-card {
     margin: 35px auto;
